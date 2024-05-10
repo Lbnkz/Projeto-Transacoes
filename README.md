@@ -18,13 +18,13 @@ Siga estas etapas para configurar e executar a API em sua máquina local:
 1. Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Lbnkz/Projeto-Transacoes.git
 ```
 
 2. Acesse o diretório do projeto:
 
 ```
-cd nome-do-repositorio
+cd projeto-transacoes
 ```
 
 3. Instale as dependências:
