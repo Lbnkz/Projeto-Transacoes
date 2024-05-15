@@ -47,12 +47,12 @@ go run main.go
 
 A API oferece os seguintes endpoints:
 
+- `GET /usuarios/{id}/saldo`: Retorna o saldo atual de um usuário.
+- `GET /usuarios/{id}/transacoes`: Retorna o histórico de transações de um usuário.
+- `GET /transacoes/{id}`: Retorna os detalhes de uma transação específica.
 - `POST /usuarios`: Cria um novo usuário.
 - `POST /login`: Autentica um usuário e gera um token de acesso.
-- `GET /usuarios/{id}/saldo`: Retorna o saldo atual de um usuário.
 - `POST /transacoes`: Realiza uma nova transação entre contas.
-- `GET /transacoes/{id}`: Retorna os detalhes de uma transação específica.
-- `GET /usuarios/{id}/transacoes`: Retorna o histórico de transações de um usuário.
 - `POST /notificacoes`: Envia uma notificação para um usuário.
 
 ## Uso da API
